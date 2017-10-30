@@ -1,0 +1,14 @@
+version: '2'
+services:
+    lanis-sonar:
+        extends:
+            file: sonar.yml
+            service: lanis-sonar
+    lanis-mongodb:
+        extends:
+            file: mongodb.yml
+            service: lanis-mongodb
+    lanis-gitlab:
+        extends:
+            file: gitlab.yml
+            service: lanis-gitlab
