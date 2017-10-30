@@ -8,3 +8,7 @@ services:
         extends:
             file: mongodb.yml
             service: lanis-mongodb
+    lanis-gitlab:
+        extends:
+            file: gitlab.yml
+            service: lanis-gitlab
