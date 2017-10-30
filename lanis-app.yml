@@ -4,11 +4,15 @@ services:
         extends:
             file: sonar.yml
             service: lanis-sonar
-    lanis-mongodb:
-        extends:
-            file: mongodb.yml
-            service: lanis-mongodb
     lanis-gitlab:
         extends:
             file: gitlab.yml
             service: lanis-gitlab
+    lanis-ide:
+        extends:
+            file: ide.yml
+            service: lanis-ide 
+    lanis-portal:
+        extends:
+            file: portal.yml
+            service: lanis-ide 
