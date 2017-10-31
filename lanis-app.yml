@@ -15,4 +15,4 @@ services:
     lanis-portal:
         extends:
             file: portal.yml
-            service: lanis-ide 
+            service: lanis-portal
